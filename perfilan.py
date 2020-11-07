@@ -15,11 +15,11 @@ class PerfilanTest(unittest.TestCase):
         driver.get("https://panel.perfilan.com")
         
         user = driver.find_element_by_id("txtUsuario")
-        user.send_keys("emprexx")        
+        user.send_keys("user")        
         sleep(2)
 
         pw = driver.find_element_by_id("txtPass")
-        pw.send_keys("sks9393A")        
+        pw.send_keys("pass")        
         sleep(2)
 
         login = driver.find_element_by_id("btn-inicio")  
